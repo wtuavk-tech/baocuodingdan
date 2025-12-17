@@ -41,7 +41,7 @@ export const Pagination: React.FC<PaginationProps> = ({ total, pageSize, current
   };
 
   return (
-    <div className="flex items-center justify-end gap-3 text-[14px] text-[#000000A6] py-4 mt-2 select-none">
+    <div className="flex items-center justify-center gap-3 text-[14px] text-[#000000A6] py-4 mt-2 select-none">
       <span>共 {total} 条</span>
       
       <div className="relative">

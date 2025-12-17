@@ -51,7 +51,7 @@ export const FilterBar: React.FC<FilterBarProps> = ({ onClose }) => {
 
              {/* Row 1, Item 4: Report Time (Date Range) */}
              <div className={inputContainerStyle}>
-                <label className={labelStyle}>报修发起时间</label>
+                <label className={labelStyle}>报错发起时间</label>
                 <div className="flex items-center border border-gray-300 rounded overflow-hidden w-60 h-8">
                     <div className="px-2 text-gray-400 border-r border-gray-100 bg-gray-50 h-full flex items-center">
                         <Clock className="w-3.5 h-3.5" />
@@ -86,7 +86,7 @@ export const FilterBar: React.FC<FilterBarProps> = ({ onClose }) => {
 
             {/* Row 2, Item 6 */}
             <div className={inputContainerStyle}>
-                <label className={labelStyle}>报修类型</label>
+                <label className={labelStyle}>报错类型</label>
                 <div className="relative w-60">
                     <select className={selectStyle}>
                         <option value="">请选择</option>

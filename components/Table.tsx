@@ -20,7 +20,7 @@ export const Table: React.FC<TableProps> = ({ data }) => {
             <tr>
               <th className="px-3 py-3.5 text-left font-medium w-12 whitespace-nowrap">序号</th>
               <th className="px-3 py-3.5 text-left font-medium whitespace-nowrap">订单号 <SortIcon /></th>
-              <th className="px-3 py-3.5 text-left font-medium whitespace-nowrap">提出报修时间 <SortIcon /></th>
+              <th className="px-3 py-3.5 text-left font-medium whitespace-nowrap">提出报错时间 <SortIcon /></th>
               <th className="px-3 py-3.5 text-left font-medium whitespace-nowrap">手机号</th>
               <th className="px-3 py-3.5 text-left font-medium whitespace-nowrap">来源</th>
               <th className="px-3 py-3.5 text-left font-medium whitespace-nowrap">工作机</th>
@@ -29,8 +29,8 @@ export const Table: React.FC<TableProps> = ({ data }) => {
               <th className="px-3 py-3.5 text-left font-medium whitespace-nowrap">录单人</th>
               <th className="px-3 py-3.5 text-left font-medium whitespace-nowrap">师傅</th>
               <th className="px-3 py-3.5 text-left font-medium whitespace-nowrap">派单员</th>
-              <th className="px-3 py-3.5 text-left font-medium whitespace-nowrap">报修提出人</th>
-              <th className="px-3 py-3.5 text-left font-medium whitespace-nowrap">报修类型</th>
+              <th className="px-3 py-3.5 text-left font-medium whitespace-nowrap">报错提出人</th>
+              <th className="px-3 py-3.5 text-left font-medium whitespace-nowrap">报错类型</th>
               <th className="px-3 py-3.5 text-left font-medium whitespace-nowrap">报错详情</th>
               <th className="px-3 py-3.5 text-left font-medium whitespace-nowrap">处理详情</th>
               <th className="px-3 py-3.5 text-left font-medium whitespace-nowrap">处理时间</th>
