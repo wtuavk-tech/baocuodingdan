@@ -1,0 +1,5 @@
+{
+  "name": "12.17 报错订单页更新",
+  "description": "A management interface for worker entry records with filtering, tabular display, and pagination.",
+  "requestFramePermissions": []
+}
